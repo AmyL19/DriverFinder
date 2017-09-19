@@ -1,0 +1,296 @@
+===== set microhomology
+Logging Session
+Date Time: 2017-07-22 18:31:08.090256
+Number of CPU cores: 8
+Working Directory Set To:
+C:/JBS/ChimericSeq_program
+Bowtie2 Folder is set to:
+C:/JBS/ChimericSeq_program/bowtie2-2.2.9
+Viral Reference File is set to:
+None Selected
+Bowtie2 viral index prefix: viralRef
+Host Reference File is set to:
+None Selected
+Bowtie2 host index prefix: humanRef
+CPU option: 2 CPUs engaged
+Load Prexisting Alignments: False
+Clipped Sequence Min Length: 10
+Salt concentration: 115mM
+Prompting: True
+Config file loaded
+Working Directory Set To:
+C:/JBS/ChimericSeq_program
+Bowtie2 Folder is set to:
+C:/JBS/ChimericSeq_program/bowtie2-2.2.9
+Viral Reference File is set to:
+C:/JBS/ChimericSeq_program/Viral_Reference/HBV_genome4.fa
+Bowtie2 viral index prefix: viralRef
+Host Reference File is set to:
+C:/JBS/ChimericSeq_program/Host_Reference/hg38.fa
+Bowtie2 host index prefix: humanRef
+CPU option: 8 CPUs engaged
+Load Prexisting Alignments: True
+Clipped Sequence Min Length: 10
+Salt concentration: 115mM
+Prompting: False
+Directory Selected:
+E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split
+FSS == self.splitSelectedFilesUI len0
+Processing multiple files...........
+1 == E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split
+Verifying Bowtie2 Integrity.....................
+Bowtie2 Integrity Verified
+Checking Bowtie2 Indexes...
+Bowtie2 indexes existences verified
+Initiating Run
+======================================================================
+File1 = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_1.fastq
+File2 = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_2.fastq
+start threading ...........
+Building Gene Database...
+Build complete at 10.937426567077637seconds
+======================================================================
+Forward read: E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_1.fastq
+Reverse read: E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_2.fastq
+Alignment check complete!
+Beginning Alignment of Reads to Viral Reference: HBV_genome4.fa
+Trimming 0 bases off 5' end
+Trimming 0 bases off 3' end
+Starting Viral Alignment...
+Aligning...
+processing multiple files...
+1000000 reads; of these:
+
+  1000000 (100.00%) were paired; of these:
+
+    999184 (99.92%) aligned concordantly 0 times
+
+    14 (0.00%) aligned concordantly exactly 1 time
+
+    802 (0.08%) aligned concordantly >1 times
+
+    ----
+
+    999184 pairs aligned concordantly 0 times; of these:
+
+      3 (0.00%) aligned discordantly 1 time
+
+    ----
+
+    999181 pairs aligned 0 times concordantly or discordantly; of these:
+
+      1998362 mates make up the pairs; of these:
+
+        1998014 (99.98%) aligned 0 times
+
+        11 (0.00%) aligned exactly 1 time
+
+        337 (0.02%) aligned >1 times
+
+0.10% overall alignment rate
+
+======================================================================
+Alignment Complete
+Retrieving Clipped Sequences...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__viralAlign.sam
+processing multiple files...
+======================================================================
+Clipped Sequence Files Generated
+Alignment check complete!
+Beginning Alignment of Reads to Host Reference: hg38.fa
+Starting Host Alignment...
+Aligning...
+processing multiple files...
+520 reads; of these:
+
+  520 (100.00%) were unpaired; of these:
+
+    484 (93.08%) aligned 0 times
+
+    8 (1.54%) aligned exactly 1 time
+
+    28 (5.38%) aligned >1 times
+
+6.92% overall alignment rate
+
+======================================================================
+Alignment Complete
+Building Internal Tables...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__viralAlign.sam
+processing multiple files...
+createSam H, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__hostAlign.sam
+Progress: 5%
+Progress: 10%
+Progress: 15%
+Progress: 20%
+Progress: 25%
+Progress: 30%
+Progress: 35%
+Progress: 40%
+Progress: 45%
+Progress: 50%
+Progress: 55%
+Progress: 60%
+Progress: 65%
+Progress: 70%
+Progress: 75%
+Progress: 80%
+Progress: 85%
+Progress: 90%
+Progress: 95%
+Progress: 100%
+36 reads contain host and viral sequences
+Tables Filled!
+Check for unique reads...
+Checking unique reads...
+36 unique reads
+save all reads for debug purpose............
+total 36 reads saved.
+save all unique reads for debug purpose............
+total 36 unique reads saved.
+======================================================================
+Run Completed in 62.98414349555969 seconds
+
+Check for microhomology & high similarity reads...
+26 reads displayed
+======================================================================
+
+Saving data...
+26 reads appended to E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__OUTPUT_2017-07-22_18h32m31s.csv
+
+accumulated reads = 26
+
+Data saved successfully!
+accumulated time = 67.12474274635315 seconds
+Log saved successfully!
+Processing multiple files...........
+find next file to be processed........
+get next file........
+1 == E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split
+Verifying Bowtie2 Integrity.....................
+Bowtie2 Integrity Verified
+Checking Bowtie2 Indexes...
+Bowtie2 indexes existences verified
+Initiating Run
+======================================================================
+File1 = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_1.fastq
+File2 = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_2.fastq
+Building Gene Database...
+start threading ...........
+Build complete at 12.031208038330078seconds
+======================================================================
+Forward read: E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_1.fastq
+Reverse read: E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_2.fastq
+Alignment check complete!
+Beginning Alignment of Reads to Viral Reference: HBV_genome4.fa
+Trimming 0 bases off 5' end
+Trimming 0 bases off 3' end
+Starting Viral Alignment...
+Aligning...
+19799 reads; of these:
+
+  19799 (100.00%) were paired; of these:
+
+    19783 (99.92%) aligned concordantly 0 times
+
+    0 (0.00%) aligned concordantly exactly 1 time
+
+    16 (0.08%) aligned concordantly >1 times
+
+    ----
+
+    19783 pairs aligned concordantly 0 times; of these:
+
+      0 (0.00%) aligned discordantly 1 time
+
+    ----
+
+    19783 pairs aligned 0 times concordantly or discordantly; of these:
+
+      39566 mates make up the pairs; of these:
+
+        39560 (99.98%) aligned 0 times
+
+        0 (0.00%) aligned exactly 1 time
+
+        6 (0.02%) aligned >1 times
+
+0.10% overall alignment rate
+
+======================================================================
+Alignment Complete
+Retrieving Clipped Sequences...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2__viralAlign.sam
+======================================================================
+Clipped Sequence Files Generated
+Alignment check complete!
+Beginning Alignment of Reads to Host Reference: hg38.fa
+Starting Host Alignment...
+Aligning...
+processing multiple files...
+7 reads; of these:
+
+  7 (100.00%) were unpaired; of these:
+
+    7 (100.00%) aligned 0 times
+
+    0 (0.00%) aligned exactly 1 time
+
+    0 (0.00%) aligned >1 times
+
+0.00% overall alignment rate
+
+======================================================================
+Alignment Complete
+Building Internal Tables...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2__viralAlign.sam
+createSam H, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2_/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_2__hostAlign.sam
+Progress: 10%
+Progress: 25%
+Progress: 40%
+Progress: 55%
+Progress: 70%
+Progress: 85%
+Progress: 100%
+0 reads contain host and viral sequences
+Tables Filled!
+Check for unique reads...
+Checking unique reads...
+1 unique reads
+save all reads for debug purpose............
+total 1 reads saved.
+save all unique reads for debug purpose............
+total 1 unique reads saved.
+======================================================================
+Run Completed in 16.437447786331177 seconds
+
+Check for microhomology & high similarity reads...
+0 reads displayed
+======================================================================
+
+Saving data...
+0 reads appended to E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__OUTPUT_2017-07-22_18h32m31s.csv
+
+accumulated reads = 26
+
+Data saved successfully!
+accumulated time = 92.49968910217285 seconds
+Log saved successfully!
+Processing multiple files...........
+find next file to be processed........
+No more files to be processed......
+
+
+**********************************************************************
+Multiple files final result 26 reads saved to file:
+E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__final_OUTPUT_2017-07-22_18h32m31s.csv
+**********************************************************************
+
+26 reads displayed
+
+======================================================================
+
+Run Multiple Files Completed in 105.98400664329529 seconds 
+
+Final log will be saved to file:
+E:/ngs_unzip/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_split/8651_10378_59690_BBBV8_HuG_A001_ATCACG_R_1__log_2017-07-22_18h32m31s.txt

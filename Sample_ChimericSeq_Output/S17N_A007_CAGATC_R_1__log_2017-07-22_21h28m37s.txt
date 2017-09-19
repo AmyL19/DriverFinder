@@ -1,0 +1,322 @@
+===== set microhomology
+Logging Session
+Date Time: 2017-07-22 21:25:59.300849
+Number of CPU cores: 8
+Working Directory Set To:
+C:/JBS/ChimericSeq_program
+Bowtie2 Folder is set to:
+C:/JBS/ChimericSeq_program/bowtie2-2.2.9
+Viral Reference File is set to:
+None Selected
+Bowtie2 viral index prefix: viralRef
+Host Reference File is set to:
+None Selected
+Bowtie2 host index prefix: humanRef
+CPU option: 2 CPUs engaged
+Load Prexisting Alignments: False
+Clipped Sequence Min Length: 10
+Salt concentration: 115mM
+Prompting: True
+Config file loaded
+Working Directory Set To:
+C:/JBS/ChimericSeq_program
+Bowtie2 Folder is set to:
+C:/JBS/ChimericSeq_program/bowtie2-2.2.9
+Viral Reference File is set to:
+C:/JBS/ChimericSeq_program/Viral_Reference/HBV_genome4.fa
+Bowtie2 viral index prefix: viralRef
+Host Reference File is set to:
+C:/JBS/ChimericSeq_program/Host_Reference/hg38.fa
+Bowtie2 host index prefix: humanRef
+CPU option: 8 CPUs engaged
+Load Prexisting Alignments: True
+Clipped Sequence Min Length: 10
+Salt concentration: 115mM
+Prompting: False
+No reads selected
+splitLargeFile!
+Directory Selected:
+E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split
+check
+FSS == self.splitSelectedFilesUI len0
+Processing multiple files...........
+1 == E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split
+Verifying Bowtie2 Integrity.....................
+Bowtie2 Integrity Verified
+Checking Bowtie2 Indexes...
+Bowtie2 indexes existences verified
+Initiating Run
+======================================================================
+File1 = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_1.fastq
+File2 = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_2.fastq
+start threading ...........
+Building Gene Database...
+Build complete at 11.015592336654663seconds
+======================================================================
+Forward read: E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_1.fastq
+Reverse read: E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_2.fastq
+Alignment check complete!
+Beginning Alignment of Reads to Viral Reference: HBV_genome4.fa
+Trimming 0 bases off 5' end
+Trimming 0 bases off 3' end
+Starting Viral Alignment...
+Aligning...
+processing multiple files...
+1000000 reads; of these:
+
+  1000000 (100.00%) were paired; of these:
+
+    998452 (99.85%) aligned concordantly 0 times
+
+    12 (0.00%) aligned concordantly exactly 1 time
+
+    1536 (0.15%) aligned concordantly >1 times
+
+    ----
+
+    998452 pairs aligned concordantly 0 times; of these:
+
+      2 (0.00%) aligned discordantly 1 time
+
+    ----
+
+    998450 pairs aligned 0 times concordantly or discordantly; of these:
+
+      1996900 mates make up the pairs; of these:
+
+        1996401 (99.98%) aligned 0 times
+
+        20 (0.00%) aligned exactly 1 time
+
+        479 (0.02%) aligned >1 times
+
+0.18% overall alignment rate
+
+======================================================================
+Alignment Complete
+Retrieving Clipped Sequences...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__viralAlign.sam
+processing multiple files...
+======================================================================
+Clipped Sequence Files Generated
+Alignment check complete!
+Beginning Alignment of Reads to Host Reference: hg38.fa
+Starting Host Alignment...
+Aligning...
+processing multiple files...
+814 reads; of these:
+
+  814 (100.00%) were unpaired; of these:
+
+    609 (74.82%) aligned 0 times
+
+    11 (1.35%) aligned exactly 1 time
+
+    194 (23.83%) aligned >1 times
+
+25.18% overall alignment rate
+
+======================================================================
+Alignment Complete
+Building Internal Tables...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__viralAlign.sam
+processing multiple files...
+createSam H, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__hostAlign.sam
+Progress: 5%
+Progress: 10%
+Progress: 15%
+Progress: 20%
+Progress: 25%
+Progress: 30%
+Progress: 35%
+Progress: 40%
+Progress: 45%
+Progress: 50%
+Progress: 55%
+Progress: 60%
+Progress: 65%
+Progress: 70%
+Progress: 75%
+Progress: 80%
+Progress: 85%
+Progress: 90%
+Progress: 95%
+Progress: 100%
+205 reads contain host and viral sequences
+Tables Filled!
+Check for unique reads...
+Checking unique reads...
+119 unique reads
+save all reads for debug purpose............
+total 119 reads saved.
+save all unique reads for debug purpose............
+total 119 unique reads saved.
+processing multiple files...
+======================================================================
+Run Completed in 71.10916805267334 seconds
+
+Check for microhomology & high similarity reads...
+59 reads displayed
+======================================================================
+
+Saving data...
+Processing multiple files...........
+waiting for save complete...
+Processing multiple files...........
+waiting for save complete...
+58 reads appended to E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__OUTPUT_2017-07-22_21h28m37s.csv
+
+accumulated reads = 58
+
+Data saved successfully!
+accumulated time = 97.32783603668213 seconds
+Log saved successfully!
+Processing multiple files...........
+find next file to be processed........
+get next file........
+1 == E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split
+Verifying Bowtie2 Integrity.....................
+Bowtie2 Integrity Verified
+Checking Bowtie2 Indexes...
+Bowtie2 indexes existences verified
+Initiating Run
+======================================================================
+File1 = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_1.fastq
+File2 = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_2.fastq
+Building Gene Database...
+start threading ...........
+Build complete at 12.234331130981445seconds
+======================================================================
+Forward read: E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_1.fastq
+Reverse read: E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_2.fastq
+Alignment check complete!
+Beginning Alignment of Reads to Viral Reference: HBV_genome4.fa
+Trimming 0 bases off 5' end
+Trimming 0 bases off 3' end
+Starting Viral Alignment...
+Aligning...
+processing multiple files...
+650429 reads; of these:
+
+  650429 (100.00%) were paired; of these:
+
+    649374 (99.84%) aligned concordantly 0 times
+
+    8 (0.00%) aligned concordantly exactly 1 time
+
+    1047 (0.16%) aligned concordantly >1 times
+
+    ----
+
+    649374 pairs aligned concordantly 0 times; of these:
+
+      2 (0.00%) aligned discordantly 1 time
+
+    ----
+
+    649372 pairs aligned 0 times concordantly or discordantly; of these:
+
+      1298744 mates make up the pairs; of these:
+
+        1298437 (99.98%) aligned 0 times
+
+        19 (0.00%) aligned exactly 1 time
+
+        288 (0.02%) aligned >1 times
+
+0.19% overall alignment rate
+
+======================================================================
+Alignment Complete
+Retrieving Clipped Sequences...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2__viralAlign.sam
+processing multiple files...
+======================================================================
+Clipped Sequence Files Generated
+Alignment check complete!
+Beginning Alignment of Reads to Host Reference: hg38.fa
+Starting Host Alignment...
+Aligning...
+507 reads; of these:
+
+  507 (100.00%) were unpaired; of these:
+
+    395 (77.91%) aligned 0 times
+
+    6 (1.18%) aligned exactly 1 time
+
+    106 (20.91%) aligned >1 times
+
+22.09% overall alignment rate
+
+======================================================================
+Alignment Complete
+Building Internal Tables...
+createSam V, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2__viralAlign.sam
+processing multiple files...
+createSam H, filename = E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2_/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_2__hostAlign.sam
+Progress: 5%
+Progress: 10%
+Progress: 15%
+Progress: 20%
+Progress: 25%
+Progress: 30%
+Progress: 35%
+Progress: 40%
+Progress: 45%
+Progress: 50%
+Progress: 55%
+Progress: 60%
+Progress: 65%
+Progress: 70%
+Progress: 75%
+Progress: 80%
+Progress: 85%
+Progress: 90%
+Progress: 95%
+Progress: 100%
+112 reads contain host and viral sequences
+Tables Filled!
+Check for unique reads...
+Checking unique reads...
+69 unique reads
+save all reads for debug purpose............
+total 69 reads saved.
+save all unique reads for debug purpose............
+total 69 unique reads saved.
+processing multiple files...
+======================================================================
+Run Completed in 54.01545023918152 seconds
+
+Check for microhomology & high similarity reads...
+41 reads displayed
+======================================================================
+
+Saving data...
+Processing multiple files...........
+waiting for save complete...
+31 reads appended to E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__OUTPUT_2017-07-22_21h28m37s.csv
+
+accumulated reads = 89
+
+Data saved successfully!
+accumulated time = 180.21820712089539 seconds
+Log saved successfully!
+Processing multiple files...........
+find next file to be processed........
+No more files to be processed......
+
+
+**********************************************************************
+Multiple files final result 89 reads saved to file:
+E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__final_OUTPUT_2017-07-22_21h28m37s.csv
+**********************************************************************
+
+89 reads displayed
+
+======================================================================
+
+Run Multiple Files Completed in 183.12443661689758 seconds 
+
+Final log will be saved to file:
+E:/ngs_unzip/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_split/8651_10378_59690_BBBV8_S17N_A007_CAGATC_R_1__log_2017-07-22_21h28m37s.txt
