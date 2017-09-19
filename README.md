@@ -5,7 +5,9 @@ Hepatocellular carcinoma (HCC) is the third leading cause of cancer deaths. HBV 
 
 Our program is meant to be used in conjunction with ChimericSeq, a software for detecting and annotating viral integration events in Host DNA. After NGS reads with HBV integration sites through ChimericSeq, our program will analyze the output to identify potential HCC drivers through detection of major junctions and HBV mutations. 
 
-We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent nontumor tissue samples. You can access these files in the "sample_reads" folder.  
+We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent nontumor tissue samples. You can access these files in the "sample_reads" folder.
+You can run these files in ChimericSeq by following the instructions on the ChimericSeq website: http://www.jbs-science.com/ChimericSeq.php
+OR, you can use the sample ChimericSeq output files provided to test DriverFinder
 
 # Prerequisites/dependencies:
 -ChimericSeq (download from: http://www.jbs-science.com/ChimericSeq.php)
@@ -15,22 +17,24 @@ We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent
   (a) 10G bytes for Human Reference genome and ChimericSeq application. 
   (b) 2 times of test data size space for holding original test data and alignment data. If you need to split test data into smaller files, it will need 3 times of test data size space for holding original test data, split files, & alignment data.
 
--Python (https://www.python.org/downloads/)
+-Python (3.6.1 or later) (https://www.python.org/downloads/)
 
--BioPython (http://biopython.org/wiki/Download)
+-BioPython (1.70) (http://biopython.org/wiki/Download)
 
--Pysam (https://github.com/pysam-developers/pysam)
+-Pysam (0.11.2.2) (https://github.com/pysam-developers/pysam)
 
--Pandas/Numpy (http://pandas.pydata.org/)
+-Pandas/Numpy (0.20.1/1.13.1) (http://pandas.pydata.org/)
 
--tkinter (https://wiki.python.org/moin/TkInter)
+-OpenPyxl (2.4.6) (https://pypi.python.org/pypi/openpyxl)
+
+-tkinter (8.5) (https://wiki.python.org/moin/TkInter)
 
 # Installing:
 Install ChimericSeq according to instructions for first time setup on website. You will need to download the human and HBV reference .fa files, the gene information gtf file, and the prebuilt Bowtie2 Human and HBV reference genome files.
 
 Download...
 
-# Running Test Files:
+# Running Test Files (OR use the sample ChimericSeq output files provided and skip this step):
 1.) Run the sample paired reads on ChimericSeq according to instructions on website. You will need to specify the settings, split the large paired fastq files, and load the reads as a directory.
 
 After running ChimericSeq, our software will use the resulting csv, SAM, and log .txt files to identify major junctions, HBV mutations, and build a data summary excel sheet.
