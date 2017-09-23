@@ -7,8 +7,6 @@ Our program is meant to be used in conjunction with ChimericSeq, a software for 
 
 We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent nontumor tissue samples. 
 Due to the GitHub file upload size limit, we uploaded these Fastq files to Google Drive at: https://drive.google.com/drive/folders/0B_om_lBDmj3jU1VlM0E5RTlUU1E?usp=sharing
-You can run these files in ChimericSeq by following the instructions on the ChimericSeq website: http://www.jbs-science.com/ChimericSeq.php
-OR, you can use the sample ChimericSeq output files provided to test DriverFinder (already in DriverFinder package folder)
 
 Sample output files are located in the folder 'Sample_Outputs' 
 The HCC driver database in this folder is built from 140 in-house NGS HBV-HCC datasets in addition to our 12 datasets (data not provided)
