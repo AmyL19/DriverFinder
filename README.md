@@ -65,8 +65,8 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 10.) Click on the button 'Select Input File' and select any csv file in the ChimericSeq output format
 
 11.) Click on the button 'Visualize Reads' and the mapped reads will appear in the window
-     Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
+
+12.) Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
+F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
+
      
-12.) To align reads, click on the button 'Align Reads'
-     
-13.) To visualize HBV breakpoints, click on the button 'Align Viral Reads'
