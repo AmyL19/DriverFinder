@@ -31,6 +31,8 @@ The HCC driver database in this folder is built from 140 in-house NGS HBV-HCC da
 
 -tkinter (8.5) (https://wiki.python.org/moin/TkInter)
 
+-samtools (http://www.htslib.org/download/)
+
 # Installing:
 Install ChimericSeq according to instructions for first time setup on website. You will need to download the human and HBV reference .fa files, the gene information gtf file, and the prebuilt Bowtie2 Human and HBV reference genome files.
 
@@ -45,7 +47,7 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
     Move the viral Alignment SAM files to the folder named 'viralsamfiles'
 
 3.) Open our python program through your command prompt with the command:
-      python "script".py
+      python "DriverFinder".py
 
 # To identify major junctions/drivers and build data summary:
 4.) Make sure all ChimericSeq output .csv and .txt files into a folder and drag the folder to the 'files' folder
