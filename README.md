@@ -41,7 +41,7 @@ Install ChimericSeq according to instructions for first time setup on website. Y
 Download the file 'DriverFinder' and unzip
 
 # Running Test Files:
-1.) Run the sample paired reads on ChimericSeq according to instructions on website. You will need to specify the settings, split the large paired fastq files, and load the reads as a directory. (OR use the sample ChimericSeq output files provided and skip to step 5)
+1.) Run the sample paired reads on ChimericSeq according to instructions on website. You will need to specify the settings, split the large paired fastq files, and load the reads as a directory. (OR use the sample ChimericSeq output files provided and skip this step)
 
 After running ChimericSeq, our software will use the resulting csv, SAM, and log .txt files to identify major junctions, HBV mutations, and build a data summary excel sheet.
 
