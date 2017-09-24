@@ -6,7 +6,7 @@ Hepatocellular carcinoma (HCC) is the third leading cause of cancer deaths. HBV 
 Our program is meant to be used in conjunction with ChimericSeq, a software for detecting and annotating viral integration events in Host DNA. After NGS reads with HBV integration sites through ChimericSeq, our program will analyze the output to identify potential HCC drivers through detection of major junctions and HBV mutations. 
 
 We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent nontumor tissue samples. 
-Due to the GitHub file upload size limit, we uploaded these Fastq files to Google Drive at: https://drive.google.com/drive/folders/0B_om_lBDmj3jU1VlM0E5RTlUU1E?usp=sharing
+Due to the GitHub file upload size limit, we uploaded these Fastq files to Google Drive at: https://drive.google.com/drive/folders/0B_om_lBDmj3jcjZyRF9YNW1SS28?usp=sharing
 
 Sample output files are located in the folder 'Sample_Outputs' 
 The HCC driver database in this folder is built from 140 in-house NGS HBV-HCC datasets in addition to our 12 datasets (data not provided)
