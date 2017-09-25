@@ -45,6 +45,8 @@ To install samtools, follow the link provided to download samtools 1.5, unzip an
 
 Use the script, 'test_modules.py', to make sure you have all the correct modules installed
 
+NOTE: We have found that some Mac environments have problems with installing the python pysam module properly. After running test_modules.py script, you may still run the DriverFinder.py script if the pysam module is the only module not installed. If the pysam module is not installed, "Detect HBV Mutations" option will be disabled.
+
 ## Installing:
 Install ChimericSeq according to instructions for first time setup on website. You will need to download the human and HBV reference .fa files, the gene information gtf file, and the prebuilt Bowtie2 Human and HBV reference genome files.
 
@@ -95,6 +97,7 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 
 13. Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
+
 
 
 
