@@ -12,6 +12,7 @@ Sample output files are located in the folder 'Sample_Outputs'
 The HCC driver database in this folder is built from 140 in-house NGS HBV-HCC datasets in addition to our 12 datasets (data not provided)
 
 # Prerequisites/dependencies:
+Current system is Mac only!
 -ChimericSeq (download from: http://www.jbs-science.com/ChimericSeq.php)
   
   System memory: The minimum system memory requirement is 8G bytes. 
@@ -72,7 +73,7 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 
 7.) The log window will update with timestamped documentation of events. Output files will be saved in the same folder with the ChimericSeq output files.
     
-# To identify HBV mutations (Mac only!):
+# To identify HBV mutations:
 8.) Make sure all viral alignment SAM files in the folder 'viralsamfiles'
 
 9.) Click on the button 'Detect HBV Mutations'
