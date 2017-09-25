@@ -33,6 +33,15 @@ The HCC driver database in this folder is built from 140 in-house NGS HBV-HCC da
 
 -samtools (http://www.htslib.org/download/)
 
+-cython (0.25.2) (http://cython.org/)
+
+-xlrd (1.0.0) (https://pypi.python.org/pypi/xlrd)
+
+We suggest using pip (package management system) to ease the installation of all the Python modules listed above (except samtools). Python 3.4 and later include pip by default. If you encounter difficulties, you may consider installing conda.
+For example, to install xlrd simply issue the following command in your command prompt: "pip install xlrd" 
+
+To install samtools, follow the link provided to download samtools 1.5, unzip and untar, enter samtools source directory, and follow instructions in the "INSTALL" file. You may need to remove dependencies on liblzma (./configure --disable-lzma) in the configuration step.
+
 Use the script, 'test_modules.py', to make sure you have all the correct modules installed
 
 # Installing:
