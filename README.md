@@ -73,8 +73,9 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 
 7.) The log window will update with timestamped documentation of events. Output files will be saved in the same folder with the ChimericSeq output files.
     The file '_Sample_Summary.xlsx' contains the data summary and links to html generated graphic displays of reads
+        If you have trouble opening the hyperlinks in the excel summary, you can use browser to open html files directly
     The file 'DriverGeneDatabase.xlsx' will update with information from all potential driver genes found
-    The complete HCC driver gene database generated from our 152 in-house HBV-HCC NGS datasets is shown below and saved in the DriverFinder folder.
+    The complete HCC driver gene database generated from our 152 in-house HBV-HCC NGS datasets is shown below and saved in the DriverFinder sample outputs folder.
     
 # To identify HBV mutations:
 8.) Make sure all viral alignment SAM files in the folder 'viralsamfiles'
@@ -82,7 +83,8 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 9.) Click on the button 'Detect HBV Mutations'
 
 10.) The mutation database file with information on all mutations found will be saved to a file named 'MutationDatabase.xlsx' in the DriverFinder folder. The program writes the results to two excel sheets, the first contains the positions of all the known mutations found and the second lists all other mutations sorted by frequency contains.
-    The complete mutation database generated from our 152 in-house HBV-HCC NGS datasets is shown below and saved in the DriverFinder folder.
+    The list of HCC-linked HBV mutations that our program references is shown below and saved in the DriverFinder folder.
+    The complete mutation database generated from our 152 in-house HBV-HCC NGS datasets is shown below (both sheets) and saved in the DriverFinder sample outputs folder.
 
 # To visualize chimeric (HBV junction) reads:
 11.) Click on the button 'Select Input File' and select any csv file in the ChimericSeq output format
@@ -92,4 +94,15 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 13.) Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
 
-![Complete Driver Gene Database:](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screen%20Shot%202017-09-24%20at%2010.48.39%20PM.png) 
+Complete Driver Gene Database:
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/HCC%20Driver%20Gene%20Database.png) 
+
+List of HCC-linked HBV mutations:
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/HCC-linked%20HBV%20Mutations.png) 
+
+Complete list of known HCC-linked HBV mutations found (sheet 1 of mutation database):
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%201.png) 
+
+Complete list of non-HCC HBV mutations found (sheet 2 of mutation database):
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%202.png) 
+
