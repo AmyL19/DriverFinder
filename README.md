@@ -95,14 +95,15 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
 
 Complete Driver Gene Database:
+
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/HCC%20Driver%20Gene%20Database.png) 
 
 List of HCC-linked HBV mutations:
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/HCC-linked%20HBV%20Mutations.png) 
 
 Complete list of known HCC-linked HBV mutations found (sheet 1 of mutation database):
-![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%201.png) 
-
-Complete list of non-HCC HBV mutations found (sheet 2 of mutation database):
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%202.png) 
+
+Complete list of all other HBV mutations found (sheet 2 of mutation database):
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%201.png) 
 
