@@ -94,8 +94,9 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 13.) Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
 
-Complete Driver Gene Database:
 
+
+Complete Driver Gene Database:
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/HCC%20Driver%20Gene%20Database.png) 
 
 List of HCC-linked HBV mutations:
