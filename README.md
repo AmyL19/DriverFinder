@@ -63,28 +63,28 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
    - 'cd' into the directory of the DriverFinder package
    - Use command: python test_modules.py
 
-4.) Open our python program through your command prompt with the command:
+4. Open our python program through your command prompt with the command:
   -python DriverFinder.py
 
 ## To identify major junctions/drivers and build data summary:
-5.) Make sure all ChimericSeq output .csv and .txt files into a folder and drag the folder to the 'files' folder (or use sample folder)
+5. Make sure all ChimericSeq output .csv and .txt files into a folder and drag the folder to the 'files' folder (or use sample folder)
 
-6.) Click on the button 'Build Summary/Identify Drivers'
+6. Click on the button 'Build Summary/Identify Drivers'
 
-7.) The log window will update with timestamped documentation of events. Output files will be saved in the same folder with the ChimericSeq output files.
-    - The file '_Sample_Summary.xlsx' contains the data summary and links to html generated graphic displays of reads
+7. The log window will update with timestamped documentation of events. Output files will be saved in the same folder with the ChimericSeq output files.
+   - The file '_Sample_Summary.xlsx' contains the data summary and links to html generated graphic displays of reads
      - If you have trouble opening the hyperlinks in the excel summary, use your browser to open html files directly
-    - The file 'DriverGeneDatabase.xlsx' will update with information from all potential driver genes found
-    - The complete HCC driver gene database generated from our 152 in-house HBV-HCC NGS datasets is shown below and saved in the DriverFinder sample outputs folder.
+   - The file 'DriverGeneDatabase.xlsx' will update with information from all potential driver genes found
+   - The complete HCC driver gene database generated from our 152 in-house HBV-HCC NGS datasets is shown below and saved in the DriverFinder 'Sample_Outputs' folder.
     
 ## To identify HBV mutations:
-8.) Make sure all viral alignment SAM files in the folder 'viralsamfiles'
+8. Make sure all viral alignment SAM files in the folder 'viralsamfiles'
 
-9.) Click on the button 'Detect HBV Mutations'
+9. Click on the button 'Detect HBV Mutations'
 
-10.) The mutation database file with information on all mutations found will be saved to a file named 'MutationDatabase.xlsx' in the DriverFinder folder. The program writes the results to two excel sheets, the first contains the positions of all the known mutations found and the second lists all other mutations sorted by frequency contains.
-     - The list of HCC-linked HBV mutations that our program references is shown below and saved in the DriverFinder folder.
-     - The complete mutation database generated from our 152 in-house HBV-HCC NGS datasets is shown below (both sheets) and saved in the DriverFinder sample outputs folder.
+10. The mutation database file with information on all mutations found will be saved to a file named 'MutationDatabase.xlsx' in the DriverFinder folder. The program writes the results to two excel sheets, the first contains the positions of all the known mutations found and the second lists all other mutations sorted by frequency contains.
+    - The list of HCC-linked HBV mutations that our program references is shown below and saved in the DriverFinder folder.
+    - The complete mutation database generated from our 152 in-house HBV-HCC NGS datasets is shown below (both sheets) and saved in the DriverFinder 'Sample_Outputs' folder.
 
 ## To visualize chimeric (HBV junction) reads:
 11.) Click on the button 'Select Input File' and select any csv file in the ChimericSeq output format
