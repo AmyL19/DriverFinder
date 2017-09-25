@@ -6,7 +6,7 @@ Hepatocellular carcinoma (HCC) is the third leading cause of cancer deaths. HBV 
 Our program is meant to be used in conjunction with ChimericSeq, a software for detecting and annotating viral integration events in Host DNA. After NGS reads with HBV integration sites through ChimericSeq, our program will analyze the output to identify potential HCC drivers through detection of major junctions and HBV mutations. 
 
 We tested our program on the NGS data from 6 pairs of HBV-HCC tumor and adjacent nontumor tissue samples. 
-Due to the GitHub file upload size limit, we uploaded these Fastq files to Google Drive at: https://drive.google.com/drive/folders/0B_om_lBDmj3jcjZyRF9YNW1SS28?usp=sharing
+Due to the GitHub file upload size limit, we uploaded these Fastq files to Google Drive at:              https://drive.google.com/drive/folders/0B_om_lBDmj3jcjZyRF9YNW1SS28?usp=sharing
 
 The complete output files generated from 152 in-house HBV-HCC and non-HCC NGS datasets are shown below and saved in the folder 'Sample_Outputs' in the DriverFinder package.
 
@@ -79,6 +79,8 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
     
 ## To identify HBV mutations:
 8. Make sure all viral alignment SAM files in the folder 'viralsamfiles'
+   - Access the viral alignment SAM files from our 12 samples at: https://drive.google.com/drive/folders/0B_om_lBDmj3jU3FaY2NybnJScVk?usp=sharing
+   - OR, use the two smaller sample SAM files already saved in the HccDriverFinder package
 
 9. Click on the button 'Detect HBV Mutations'
 
@@ -87,11 +89,11 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
     - The complete mutation database generated from our 152 in-house HBV-HCC NGS datasets is shown below (both sheets) and saved in the DriverFinder 'Sample_Outputs' folder.
 
 ## To visualize chimeric (HBV junction) reads:
-11.) Click on the button 'Select Input File' and select any csv file in the ChimericSeq output format
+11. Click on the button 'Select Input File' and select any csv file in the ChimericSeq output format
 
-12.) Click on the button 'Visualize Reads' and the mapped reads will appear in the window
+12. Click on the button 'Visualize Reads' and the mapped reads will appear in the window
 
-13.) Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
+13. Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
 
 
