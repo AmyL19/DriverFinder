@@ -1,7 +1,7 @@
 # HccDriverFinder
 An integrated approach to uncover drivers for HBV-HCC
 
-DriverFinder GUI:
+DriverFinder GUI:                                                
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/gui1.png)
 
 Visualize Reads Function Window: 
