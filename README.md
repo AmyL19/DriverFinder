@@ -1,6 +1,9 @@
 # HccDriverFinder
 An integrated approach to uncover drivers for HBV-HCC
 
+DriverFinder GUI:
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/gui1.png)
+
 Hepatocellular carcinoma (HCC) is the third leading cause of cancer deaths. HBV integration in the human genome is associated with the development of HCC. Statistically significant recurrent sites of HBV integration have been widely reported and are likely related to hepatocarcinogenesis. We believe that study of  HCC-related recurrent integration sites will identify driver genes that cause uncontrolled clonal expansion of cancerous hepatocytes. Our program is a novel NGS analysis software that facilitates i)identification of major junctions through integration detection in HCC, ii) mutational data analysis and iii) data mining to demonstrate driver identification for the construction of an HBV-HCC driver library for precision medicine. 
 
 Our program is meant to be used in conjunction with ChimericSeq, a software for detecting and annotating viral integration events in Host DNA. After NGS reads with HBV integration sites through ChimericSeq, our program will analyze the output to identify potential HCC drivers through detection of major junctions and HBV mutations. 
@@ -99,6 +102,13 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
 
 
+Visualize Reads Function Window: 
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/visualize%20reads.png)
+
+ViewSequence File (included in data summary folder):
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/view%20sequence%20file.png)
+
+
 
 
 Complete Driver Gene Database:
@@ -113,4 +123,6 @@ Complete list of known HCC-linked HBV mutations found (sheet 1 of mutation datab
 
 Complete list of all other HBV mutations found (sheet 2 of mutation database):
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/Mutation%20Database%20Sheet%201.png) 
+
+
 
