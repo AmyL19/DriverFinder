@@ -2,8 +2,13 @@
 An integrated approach to uncover drivers for HBV-HCC
 
 DriverFinder GUI:
-
 ![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/gui1.png)
+
+Visualize Reads Function Window: 
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/visualize%20reads.png)
+
+ViewSequence File (included in data summary folder):
+![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/view%20sequence%20file.png)
 
 Hepatocellular carcinoma (HCC) is the third leading cause of cancer deaths. HBV integration in the human genome is associated with the development of HCC. Statistically significant recurrent sites of HBV integration have been widely reported and are likely related to hepatocarcinogenesis. We believe that study of  HCC-related recurrent integration sites will identify driver genes that cause uncontrolled clonal expansion of cancerous hepatocytes. Our program is a novel NGS analysis software that facilitates i)identification of major junctions through integration detection in HCC, ii) mutational data analysis and iii) data mining to demonstrate driver identification for the construction of an HBV-HCC driver library for precision medicine. 
 
@@ -101,13 +106,6 @@ After running ChimericSeq, our software will use the resulting csv, SAM, and log
 
 13. Use "F1", "F2", & "F3" to switch display, "F6" to increase font size, and "F5" to reduce font size.
 F1 - Chimeric reads, F2 - HBV only, F3 - Major junction reads only
-
-
-Visualize Reads Function Window: 
-![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/visualize%20reads.png)
-
-ViewSequence File (included in data summary folder):
-![alt text](https://github.com/Competition-Entrant-2017/DriverFinder/blob/master/Screenshots/view%20sequence%20file.png)
 
 
 
